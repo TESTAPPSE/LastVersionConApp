@@ -3,7 +3,6 @@ import axios from 'axios';
 import App from './Readtxt';
 const VBScriptExecution = () => {
  
-var c=0
     const executeVBScript = () => {
         //here we will get all employee data
         const url = `http://localhost:5001/run-script`

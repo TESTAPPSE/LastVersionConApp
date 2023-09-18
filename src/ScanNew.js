@@ -4,7 +4,6 @@ import axios from 'axios';
 import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
 import Navbar from './Navbar';
-import { Nav } from 'react-bootstrap';
 const DataPage = () => {
   const [data, setData] = useState([]);
   const [name, setInput1] = useState('');

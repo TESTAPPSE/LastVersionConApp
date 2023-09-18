@@ -16,7 +16,7 @@
 // //     const formData = new FormData();                                                                                                  
 // //     formData.append('file', this.state.file);                                                                                                  
                                                                                                   
-// //     fetch('http://10.110.24.148:5000/upload', {                                                                                                  
+// //     fetch('http://10.110.21.216:5000/upload', {                                                                                                  
 // //       method: 'POST',                                                                                                  
 // //       body: formData,                                                                                                  
 // //     })                                                                                                  
@@ -61,7 +61,7 @@
 // //     const formData = new FormData();                                                                                                  
 // //     formData.append('file', file);                                                                                                  
                                                                                                   
-// //     fetch('http://10.110.24.148:5000/upload', {                                                                                                  
+// //     fetch('http://10.110.21.216:5000/upload', {                                                                                                  
 // //       method: 'POST',                                                                                                  
 // //       body: formData,                                                                                                  
 // //     })                                                                                                  
@@ -77,7 +77,7 @@
 // //   };                                                                                                  
                                                                                                   
 // //   const fetchUploadedFiles = () => {                                                                                                  
-// //     fetch('http://10.110.24.148:5000/files')                                                                                                  
+// //     fetch('http://10.110.21.216:5000/files')                                                                                                  
 // //       .then((response) => response.json())                                                                                                  
 // //       .then((data) => {                                                                                                  
 // //         setUploadedFiles(data);                                                                                                  
@@ -88,7 +88,7 @@
 // //   };                                                                                                  
                                                                                                   
 // //   const fetchTableNames = () => {                                                                                                  
-// //     fetch('http://10.110.24.148:5000/tables')                                                                                                  
+// //     fetch('http://10.110.21.216:5000/tables')                                                                                                  
 // //       .then((response) => response.json())                                                                                                  
 // //       .then((data) => {                                                                                                  
 // //         setTableNames(data);                                                                                                  
@@ -153,7 +153,7 @@
 //     const formData = new FormData();                                                                                                  
 //     formData.append('file', file);                                                                                                  
                                                                                                   
-//     fetch('http://10.110.24.148:5000/upload', {                                                                                                  
+//     fetch('http://10.110.21.216:5000/upload', {                                                                                                  
 //       method: 'POST',                                                                                                  
 //       body: formData,                                                                                                  
 //     })                                                                                                  
@@ -170,7 +170,7 @@
 //   };                                                                                                  
                                                                                                   
 //   const fetchUploadedFiles = () => {                                                                                                  
-//     fetch('http://10.110.24.148:5000/files')                                                                                                  
+//     fetch('http://10.110.21.216:5000/files')                                                                                                  
 //       .then((response) => response.json())                                                                                                  
 //       .then((data) => {                                                                                                  
 //         setUploadedFiles(data);                                                                                                  
@@ -181,7 +181,7 @@
 //   };                                                                                                  
                                                                                                   
 //   const fetchTableNames = () => {                                                                                                  
-//     fetch('http://10.110.24.148:5000/tables')                                                                                                  
+//     fetch('http://10.110.21.216:5000/tables')                                                                                                  
 //       .then((response) => response.json())                                                                                                  
 //       .then((data) => {                                                                                                  
 //         setTableNames(data);                                                                                                  
@@ -192,7 +192,7 @@
 //   };                                                                                                  
                                                                                                   
 //   const fetchTableData = (tableName) => {                                                                                                  
-//     fetch(`http://10.110.24.148:5000/data/${tableName}`)                                                                                                  
+//     fetch(`http://10.110.21.216:5000/data/${tableName}`)                                                                                                  
 //       .then((response) => response.json())                                                                                                  
 //       .then((data) => {                                                                                                  
 //         setTableData(data);                                                                                                  
@@ -209,7 +209,7 @@
                                                                                                     
 //   const deleteTable = (tableName) => {                                                                                                  
 //     // Add a confirmation dialog if needed                                                                                                  
-//     fetch(`http://10.110.24.148:5000/delete/${tableName}`, {                                                                                                  
+//     fetch(`http://10.110.21.216:5000/delete/${tableName}`, {                                                                                                  
 //       method: 'DELETE',                                                                                                  
 //     })                                                                                                  
 //       .then((response) => response.json())                                                                                                  
@@ -341,7 +341,7 @@
 //     const formData = new FormData();                                                                                                  
 //     formData.append('file', file);                                                                                                  
                                                                                                   
-//     fetch('http://10.110.24.148:5000/upload', {                                                                                                  
+//     fetch('http://10.110.21.216:5000/upload', {                                                                                                  
 //       method: 'POST',                                                                                                  
 //       body: formData,                                                                                                  
 //     })                                                                                                  
@@ -371,7 +371,7 @@
 //   };                                                                                                  
                                                                                                   
 //   const fetchUploadedFiles = () => {                                                                                                  
-//     fetch('http://10.110.24.148:5000/files')                                                                                                  
+//     fetch('http://10.110.21.216:5000/files')                                                                                                  
 //       .then((response) => response.json())                                                                                                  
 //       .then((data) => {                                                                                                  
 //         setUploadedFiles(data);                                                                                                  
@@ -382,7 +382,7 @@
 //   };                                                                                                  
                                                                                                   
 //   const fetchTableNames = () => {                                                                                                  
-//     fetch('http://10.110.24.148:5000/tables')                                                                                                  
+//     fetch('http://10.110.21.216:5000/tables')                                                                                                  
 //       .then((response) => response.json())                                                                                                  
 //       .then((data) => {                                                                                                  
 //         setTableNames(data);                                                                                                  
@@ -393,7 +393,7 @@
 //   };                                                                                                  
                                                                                                   
 //      const fetchTableData = (tableName) => {                                                                                                  
-// fetch(`http://10.110.24.148:5000/data/${tableName}`)                                                                                                  
+// fetch(`http://10.110.21.216:5000/data/${tableName}`)                                                                                                  
 //        .then((response) => response.json())                                                                                                  
 //       .then((data) => {                                                                                                  
 //         setTableData(data);                                                                                                        
@@ -410,7 +410,7 @@
                                                                                                     
 //  const deleteTable = (tableName) => {                                                                                                  
 //     // Add a confirmation dialog if needed                                                                                                  
-//     fetch(`http://10.110.24.148:5000/delete/${tableName}`, {                                                                                                  
+//     fetch(`http://10.110.21.216:5000/delete/${tableName}`, {                                                                                                  
 //      method: 'DELETE',                                                                                                  
 //      })                                                                                                  
 //             .then((response) => response.json())                                                                                                  
@@ -563,7 +563,7 @@
 //     const formData = new FormData();                                                                                                  
 //     formData.append('file', file);                                                                                                  
                                                                                                   
-//     fetch('http://10.110.24.148:5000/upload', {                                                                                                  
+//     fetch('http://10.110.21.216:5000/upload', {                                                                                                  
 //       method: 'POST',                                                                                                  
 //       body: formData,                                                                                                  
 //     })                                                                                                  
@@ -590,7 +590,7 @@
 //   };                                                                                                  
                                                                                                   
 //   const fetchUploadedFiles = () => {                                                                                                  
-//     fetch('http://10.110.24.148:5000/files')                                                                                                  
+//     fetch('http://10.110.21.216:5000/files')                                                                                                  
 //       .then((response) => response.json())                                                                                                  
 //       .then((data) => {                                                                                                  
 //         setUploadedFiles(data);                                                                                                  
@@ -601,7 +601,7 @@
 //   };                                                                                                  
                                                                                                   
 //   const fetchTableNames = () => {                                                                                                  
-//     fetch('http://10.110.24.148:5000/tables')                                                                                                  
+//     fetch('http://10.110.21.216:5000/tables')                                                                                                  
 //       .then((response) => response.json())                                                                                                  
 //       .then((data) => {                                                                                                  
 //         setTableNames(data);                                                                                                  
@@ -612,7 +612,7 @@
 //   };                                                                                                  
                                                                                                   
 //   const fetchTableData = (tableName) => {                                                                                                  
-//     fetch(`http://10.110.24.148:5000/data/${tableName}`)                                                                                                  
+//     fetch(`http://10.110.21.216:5000/data/${tableName}`)                                                                                                  
 //       .then((response) => response.json())                                                                                                  
 //       .then((data) => {                                                                                                  
 //         setTableData(data);                                                                                                  
@@ -643,7 +643,7 @@
 //     setDeleteConfirmationOpen(false);                                                                                                  
                                                                                                   
 //     // Delete the table                                                                                                  
-//     fetch(`http://10.110.24.148:5000/delete/${tableToDelete}`, {                                                                                                  
+//     fetch(`http://10.110.21.216:5000/delete/${tableToDelete}`, {                                                                                                  
 //       method: 'DELETE',                                                                                                  
 //     })                                                                                                  
 //       .then((response) => response.json())                                                                                                  
@@ -793,7 +793,6 @@ import React, { useState, useEffect } from 'react';
 import './DataTable.css';
 import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
-import SaveIcon from '@mui/icons-material/Save';
 import ConfirmationDialog from './ConfirmationDialog';
 import UploadFileIcon from '@mui/icons-material/UploadFile';
 import { useNavigate } from 'react-router-dom';
@@ -844,7 +843,7 @@ function App() {
     const formData = new FormData();
     formData.append('file', file);
 
-    fetch('http://10.110.24.148:5000/upload', {
+    fetch('http://10.110.21.216:5000/upload', {
       method: 'POST',
       body: formData,
     })
@@ -873,7 +872,7 @@ function App() {
   };
 
   const fetchUploadedFiles = () => {
-    fetch('http://10.110.24.148:5000/files')
+    fetch('http://10.110.21.216:5000/files')
       .then((response) => response.json())
       .then((data) => {
         setUploadedFiles(data);
@@ -884,7 +883,7 @@ function App() {
   };
 
   const fetchTableNames = () => {
-    fetch('http://10.110.24.148:5000/tables')
+    fetch('http://10.110.21.216:5000/tables')
       .then((response) => response.json())
       .then((data) => {
         setTableNames(data);
@@ -895,7 +894,7 @@ function App() {
   };
 
   const fetchTableData = (tableName) => {
-    fetch(`http://10.110.24.148:5000/data/${tableName}`)
+    fetch(`http://10.110.21.216:5000/data/${tableName}`)
       .then((response) => response.json())
       .then((data) => {
         setTableData(data);
@@ -924,7 +923,7 @@ function App() {
   const confirmDelete = () => {
     setDeleteConfirmationOpen(false);
 
-    fetch(`http://10.110.24.148:5000/delete/${tableToDelete}`, {
+    fetch(`http://10.110.21.216:5000/delete/${tableToDelete}`, {
       method: 'DELETE',
     })
       .then((response) => response.json())
