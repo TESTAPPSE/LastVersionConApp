@@ -1,0 +1,53 @@
+
+  <table className="table">
+                    <thead>
+                      <tr>
+                        {tableData.length > 0 &&
+                          Object.keys(tableData[0]).map((key, index) => (
+                            <th key={index}>
+                              {key}
+                              <br />
+                              {key === 'Status' ? (  Check if the column is 'Status'
+                                <FormControl fullWidth variant="outlined">
+                                  <InputLabel>Status</InputLabel>
+                                  <Select
+                                    value={statusFilter}
+                                    onChange={(e) => setStatusFilter(e.target.value)}
+                                    label="Status"
+                                  >
+                                    <MenuItem value="">All</MenuItem>
+                                    <MenuItem value="Verified">Verified</MenuItem>
+                                    <MenuItem value="Not Verified">Not Verified</MenuItem>
+                                  </Select>
+                                </FormControl>
+                              ) : (
+                                <TextField
+                                  fullWidth
+                                  label={`Filter ${key}`}
+                                  variant="outlined"
+                                  value={columnFilters[key] || ''}
+                                  onChange={(e) =>
+                                    setColumnFilters({ ...columnFilters, [key]: e.target.value })
+                                  }
+                                />
+                              )}
+                            </th>
+                          ))}
+                      </tr>
+                    </thead>
+                      {tableData
+                        .filter((row) => {
+                          return (
+                            Object.keys(columnFilters).every((column) => {
+                              const filterValue = columnFilters[column];
+                              if (filterValue === '') return true;
+                              return (
+                                String(row[column])
+                                  .toLowerCase()
+                                  .includes(filterValue.toLowerCase()) &&
+                                (statusFilter === '' || row['Status'] === statusFilter)
+                              );
+                            }) &&
+                            (statusFilter === '' || row['Status'] === statusFilter)
+                          );
+                        })

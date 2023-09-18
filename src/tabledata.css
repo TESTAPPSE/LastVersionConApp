@@ -1,0 +1,25 @@
+/* Add this to your CSS file */
+.table-container {
+    position: relative;
+    overflow: auto;
+    max-height: 650px; /* Adjust the maximum height as needed */
+  }
+  
+  .table-header {
+    position: sticky;
+    top: 0;
+    background-color: lightgray;
+    z-index: 1;
+  }
+  
+  .table-row {
+    display: flex;
+    border-bottom: 2px solid black;
+  }
+  
+  .table-cell {
+    flex: 1;
+    padding: 8px;
+    min-width: 200px; /* Adjust as needed */
+  }
+  
