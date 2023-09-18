@@ -50,7 +50,7 @@
 // // // // //   }, [scannedData, selectedColumn, tableData]);
 
 // // // // //   const fetchTableData = (tableName) => {
-// // // // //     fetch(`http://10.110.21.216:5000/data/${tableName}`)
+// // // // //     fetch(`http://10.110.24.148:5000/data/${tableName}`)
 // // // // //       .then((response) => response.json())
 // // // // //       .then((data) => {
 // // // // //         setTableData(data);
@@ -120,7 +120,7 @@
 // // // // //         newTableName = oldTableName;
 // // // // //       }
 
-// // // // //       await fetch(`http://10.110.21.216:5000/renameTable/${oldTableName}/${newTableName}`, {
+// // // // //       await fetch(`http://10.110.24.148:5000/renameTable/${oldTableName}/${newTableName}`, {
 // // // // //         method: 'POST',
 // // // // //       });
 
@@ -128,7 +128,7 @@
 // // // // //         tableData
 // // // // //           .filter((row) => row.Status === 'Verified')
 // // // // //           .map(async (row) => {
-// // // // //             await fetch(`http://10.110.21.216:5000/updateStatus/${newTableName}/${row.id}`, {
+// // // // //             await fetch(`http://10.110.24.148:5000/updateStatus/${newTableName}/${row.id}`, {
 // // // // //               method: 'POST',
 // // // // //               headers: {
 // // // // //                 'Content-Type': 'application/json',
@@ -314,7 +314,7 @@
 // // // // //   }, [scannedData, selectedColumn, tableData]);
 
 // // // // //   const fetchTableData = (tableName) => {
-// // // // //     fetch(`http://10.110.21.216:5000/data/${tableName}`)
+// // // // //     fetch(`http://10.110.24.148:5000/data/${tableName}`)
 // // // // //       .then((response) => response.json())
 // // // // //       .then((data) => {
 // // // // //         setTableData(data);
@@ -384,7 +384,7 @@
 // // // // //         newTableName = oldTableName;
 // // // // //       }
 
-// // // // //       await fetch(`http://10.110.21.216:5000/renameTable/${oldTableName}/${newTableName}`, {
+// // // // //       await fetch(`http://10.110.24.148:5000/renameTable/${oldTableName}/${newTableName}`, {
 // // // // //         method: 'POST',
 // // // // //       });
 
@@ -392,7 +392,7 @@
 // // // // //         tableData
 // // // // //           .filter((row) => row.Status === 'Verified')
 // // // // //           .map(async (row) => {
-// // // // //             await fetch(`http://10.110.21.216:5000/updateStatus/${newTableName}/${row.id}`, {
+// // // // //             await fetch(`http://10.110.24.148:5000/updateStatus/${newTableName}/${row.id}`, {
 // // // // //               method: 'POST',
 // // // // //               headers: {
 // // // // //                 'Content-Type': 'application/json',
@@ -599,7 +599,7 @@
 // // // //   }, [scannedData, selectedColumn, tableData]);
 
 // // // //   const fetchTableData = (tableName) => {
-// // // //     fetch(`http://10.110.21.216:5000/data/${tableName}`)
+// // // //     fetch(`http://10.110.24.148:5000/data/${tableName}`)
 // // // //       .then((response) => response.json())
 // // // //       .then((data) => {
 // // // //         setTableData(data);
@@ -669,7 +669,7 @@
 // // // //         newTableName = oldTableName;
 // // // //       }
 
-// // // //       await fetch(`http://10.110.21.216:5000/renameTable/${oldTableName}/${newTableName}`, {
+// // // //       await fetch(`http://10.110.24.148:5000/renameTable/${oldTableName}/${newTableName}`, {
 // // // //         method: 'POST',
 // // // //       });
 
@@ -677,7 +677,7 @@
 // // // //         tableData
 // // // //           .filter((row) => row.Status === 'Verified')
 // // // //           .map(async (row) => {
-// // // //             await fetch(`http://10.110.21.216:5000/updateStatus/${newTableName}/${row.id}`, {
+// // // //             await fetch(`http://10.110.24.148:5000/updateStatus/${newTableName}/${row.id}`, {
 // // // //               method: 'POST',
 // // // //               headers: {
 // // // //                 'Content-Type': 'application/json',
@@ -894,7 +894,7 @@
 // // //   }, [scannedData, selectedColumn, tableData]);
 
 // // //   const fetchTableData = (tableName) => {
-// // //     fetch(`http://10.110.21.216:5000/data/${tableName}`)
+// // //     fetch(`http://10.110.24.148:5000/data/${tableName}`)
 // // //       .then((response) => response.json())
 // // //       .then((data) => {
 // // //         setTableData(data);
@@ -964,7 +964,7 @@
 // // //         newTableName = oldTableName;
 // // //       }
 
-// // //       await fetch(`http://10.110.21.216:5000/renameTable/${oldTableName}/${newTableName}`, {
+// // //       await fetch(`http://10.110.24.148:5000/renameTable/${oldTableName}/${newTableName}`, {
 // // //         method: 'POST',
 // // //       });
 
@@ -972,7 +972,7 @@
 // // //         tableData
 // // //           .filter((row) => row.Status === 'Verified')
 // // //           .map(async (row) => {
-// // //             await fetch(`http://10.110.21.216:5000/updateStatus/${newTableName}/${row.id}`, {
+// // //             await fetch(`http://10.110.24.148:5000/updateStatus/${newTableName}/${row.id}`, {
 // // //               method: 'POST',
 // // //               headers: {
 // // //                 'Content-Type': 'application/json',
@@ -1203,7 +1203,7 @@
 // //   }, [scannedData, selectedColumn, tableData]);
 
 // //   const fetchTableData = (tableName) => {
-// //     fetch(`http://10.110.21.216:5000/data/${tableName}`)
+// //     fetch(`http://10.110.24.148:5000/data/${tableName}`)
 // //       .then((response) => response.json())
 // //       .then((data) => {
 // //         setTableData(data);
@@ -1275,7 +1275,7 @@
 // //         newTableName = oldTableName;
 // //       }
 
-// //       await fetch(`http://10.110.21.216:5000/renameTable/${oldTableName}/${newTableName}`, {
+// //       await fetch(`http://10.110.24.148:5000/renameTable/${oldTableName}/${newTableName}`, {
 // //         method: 'POST',
 // //       });
 
@@ -1283,7 +1283,7 @@
 // //         tableData
 // //           .filter((row) => row.Status === 'Verified')
 // //           .map(async (row) => {
-// //             await fetch(`http://10.110.21.216:5000/updateStatus/${newTableName}/${row.id}`, {
+// //             await fetch(`http://10.110.24.148:5000/updateStatus/${newTableName}/${row.id}`, {
 // //               method: 'POST',
 // //               headers: {
 // //                 'Content-Type': 'application/json',
@@ -1514,7 +1514,7 @@
 //   }, [scannedData, selectedColumn, tableData]);
 
 //   const fetchTableData = (tableName) => {
-//     fetch(`http://10.110.21.216:5000/data/${tableName}`)
+//     fetch(`http://10.110.24.148:5000/data/${tableName}`)
 //       .then((response) => response.json())
 //       .then((data) => {
 //         setTableData(data);
@@ -1590,7 +1590,7 @@
 //         newTableName = oldTableName;
 //       }
 
-//       await fetch(`http://10.110.21.216:5000/renameTable/${oldTableName}/${newTableName}`, {
+//       await fetch(`http://10.110.24.148:5000/renameTable/${oldTableName}/${newTableName}`, {
 //         method: 'POST',
 //       });
 
@@ -1598,7 +1598,7 @@
 //         tableData
 //           .filter((row) => row.Status === 'Verified')
 //           .map(async (row) => {
-//             await fetch(`http://10.110.21.216:5000/updateStatus/${newTableName}/${row.id}`, {
+//             await fetch(`http://10.110.24.148:5000/updateStatus/${newTableName}/${row.id}`, {
 //               method: 'POST',
 //               headers: {
 //                 'Content-Type': 'application/json',
@@ -1833,7 +1833,7 @@
 //   }, [scannedData, selectedColumn, tableData]);
 
 //   const fetchTableData = (tableName) => {
-//     fetch(`http://10.110.21.216:5000/data/${tableName}`)
+//     fetch(`http://10.110.24.148:5000/data/${tableName}`)
 //       .then((response) => response.json())
 //       .then((data) => {
 //         setTableData(data);
@@ -1917,7 +1917,7 @@
 //       // You need to implement the code to save the selectedArea to your backend/database here
 //       // You can use fetch or any other method to make an HTTP request to your server
 //       // Example:
-//       await fetch(`http://10.110.21.216:5000/saveArea`, {
+//       await fetch(`http://10.110.24.148:5000/saveArea`, {
 //         method: 'POST',
 //         headers: {
 //           'Content-Type': 'application/json',
@@ -2114,7 +2114,7 @@ function TableData() {
   }, [scannedData, selectedColumn, tableData]);
 
   const fetchTableData = (tableName) => {
-    fetch(`http://10.110.21.216:5000/data/${tableName}`)
+    fetch(`http://10.110.24.148:5000/data/${tableName}`)
       .then((response) => response.json())
       .then((data) => {
         setTableData(data);
@@ -2213,7 +2213,7 @@ function TableData() {
         newTableName = oldTableName;
       }
 
-      await fetch(`http://10.110.21.216:5000/renameTable/${oldTableName}/${newTableName}`, {
+      await fetch(`http://10.110.24.148:5000/renameTable/${oldTableName}/${newTableName}`, {
         method: 'POST',
       });
 
@@ -2221,7 +2221,7 @@ function TableData() {
         updatedData
           .filter((row) => row.Status === 'Verified')
           .map(async (row) => {
-            await fetch(`http://10.110.21.216:5000/updateStatus/${newTableName}/${row.id}`, {
+            await fetch(`http://10.110.24.148:5000/updateStatus/${newTableName}/${row.id}`, {
               method: 'POST',
               headers: {
                 'Content-Type': 'application/json',
@@ -2337,32 +2337,43 @@ function TableData() {
                 <Button onClick={() => exportToExcel('allData')}>Export All Data</Button>
                 {/* <Button onClick={() => saveAndExit()}>Save and Exit</Button> */}
                 <List
-  height={650} // Adjust the height as needed
-  itemCount={tableData.length + 1} // Add 1 for the header row
-  itemSize={40} // Adjust the row height as needed
-  width={1480} // Adjust the width as needed
->
-  {({ index, style }) => {
+      height={window.innerWidth > 768 ? 650 : 400} // Adjust the height based on screen width
+      itemCount={tableData.length + 1} // Add 1 for the header row
+      itemSize={50} // Adjust the row height as needed
+      
+    >
+{({ index, style }) => {
     const isHeaderRow = index === 0;
     const rowData = isHeaderRow ? Object.keys(tableData[0] || {}) : Object.values(tableData[index - 1] || {});
+    const rowBackgroundColor = isHeaderRow
+      ? '' // Header row background color
+      : verificationCount[tableData[index - 1]?.id] &&
+        verificationCount[tableData[index - 1]?.id] > 1
+      ? 'orange'
+      : tableData[index - 1]?.Status === 'Verified'
+      ? '#90EE90'
+      : 'white';
+
     return (
       <div
         key={index}
         style={{
           ...style,
-          backgroundColor:
-            isHeaderRow // Check if it's the header row
-              ? '' // Header row background color
-              : verificationCount[tableData[index - 1]?.id] &&
-                verificationCount[tableData[index - 1]?.id] > 1
-              ? 'orange'
-              : tableData[index - 1]?.Status === 'Verified'
-              ? '#90EE90'
-              : 'white',
+          display: 'flex', // Add display flex to arrange columns horizontally
+          backgroundColor: rowBackgroundColor,
+          padding: '8px', // Add padding for spacing
         }}
       >
         {rowData.map((value, colIndex) => (
-          <div key={colIndex} style={{ display: 'inline-block', width: '200px', fontWeight: isHeaderRow ? 'bold' : 'normal' }}>
+          <div
+            key={colIndex}
+            style={{
+              width: '200px',
+              flex: '1', // Allow columns to grow and shrink equally
+              padding: '4px', // Add padding for cell content spacing
+              fontWeight: isHeaderRow ? 'bold' : 'normal',
+            }}
+          >
             {value}
           </div>
         ))}
